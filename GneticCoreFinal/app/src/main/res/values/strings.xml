@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gnetic Core</string>
+    <string name="app_title_with_emoji">🎮 Gnetic Core</string>
+    <string name="app_tagline">Tu biblioteca de videojuegos</string>
+
+    <!-- Pantallas de autenticación -->
+    <string name="screen_login">Inicia sesión</string>
+    <string name="screen_register">Crear cuenta</string>
+    <string name="field_username">Nombre de usuario</string>
+    <string name="field_display_name">Identificador público</string>
+    <string name="field_password">Contraseña</string>
+    <string name="field_confirm_password">Confirmar contraseña</string>
+    <string name="hint_username">ej. juanperez</string>
+    <string name="hint_display_name">ej. JuanGamer92</string>
+    <string name="hint_password">Mínimo 4 caracteres</string>
+    <string name="label_display_name_help">Así te verán otros usuarios</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_go_register">¿No tienes cuenta? Regístrate</string>
+    <string name="btn_go_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="error_required_fields">Completa todos los campos</string>
+    <string name="error_min_chars_var">Mínimo %1$d caracteres</string>
+    <string name="error_passwords_dont_match">Las contraseñas no coinciden</string>
+
+    <!-- Etiquetas de navegación -->
+    <string name="nav_all_games">Todos los juegos</string>
+    <string name="nav_by_platform">Por plataforma</string>
+    <string name="nav_top_rated">Más valorados</string>
+    <string name="nav_recent">Más recientes</string>
+    <string name="nav_pending">Solicitudes pendientes</string>
+    <string name="nav_stats">Estadísticas</string>
+
+    <!-- Campos de juego -->
+    <string name="field_title">Título</string>
+    <string name="field_platform">Plataforma</string>
+    <string name="field_genre">Género</string>
+    <string name="field_year">Año de lanzamiento</string>
+    <string name="field_developer">Desarrolladora</string>
+    <string name="field_rating">Calificación</string>
+    <string name="field_image">Imagen del juego</string>
+    <string name="label_game_cover">Portada del juego</string>
+    <string name="label_optional">(Opcional)</string>
+    <string name="content_desc_cover">Portada</string>
+    <string name="label_adjust_focus_hint">Pulsar y arrastrar sobre la imagen para ajustar el enfoque</string>
+    <string name="label_tap_to_upload">Toca para subir una foto</string>
+    <string name="label_proposing_as">Propones como:</string>
+    <string name="msg_review_notice">Los cambios serán revisados por el administrador antes de aplicarse.</string>
+    <string name="label_current_avg">(Promedio actual)</string>
+
+    <!-- Validaciones -->
+    <string name="error_required">Obligatorio</string>
+    <string name="error_min_chars">Mínimo 2 caracteres</string>
+    <string name="error_year_range">Entre %1$d y %2$d</string>
+    <string name="error_year_invalid">Año inválido</string>
+    <string name="error_rating_required">Selecciona al menos 1 estrella</string>
+    <string name="error_image_required">Debes seleccionar una imagen para el juego</string>
+    <string name="error_duplicate_game">Ese juego ya existe para esta plataforma</string>
+    <string name="error_comment_empty">El comentario no puede estar vacío</string>
+
+    <!-- Botones -->
+    <string name="btn_save">Guardar</string>
+    <string name="btn_propose">Proponer cambios</string>
+    <string name="btn_propose_new">Proponer juego</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_approve">Aprobar</string>
+    <string name="btn_reject">Rechazar</string>
+    <string name="btn_add_game">Agregar juego</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="btn_back">Regresar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_reply">Responder</string>
+    <string name="btn_publish">Publicar</string>
+    <string name="btn_change_image">Cambiar</string>
+
+    <!-- Estado -->
+    <string name="status_pending">Pendiente de aprobación</string>
+    <string name="label_pending_count">solicitudes pendientes</string>
+    <string name="label_pending_caps">PENDIENTE</string>
+
+    <!-- Mensajes -->
+    <string name="msg_no_games">No hay juegos aún. ¡Agrega uno!</string>
+    <string name="msg_no_pending">No hay solicitudes pendientes</string>
+    <string name="msg_game_saved">Juego guardado</string>
+    <string name="msg_game_updated">Juego actualizado</string>
+    <string name="msg_game_added">Juego agregado</string>
+    <string name="msg_new_game_proposed">Juego enviado para aprobación</string>
+    <string name="msg_edit_proposed">Propuesta de edición enviada</string>
+    <string name="msg_proposal_sent">Propuesta enviada correctamente</string>
+    <string name="msg_rating_updated">Calificación actualizada</string>
+    <string name="msg_game_deleted">Juego eliminado</string>
+    <string name="msg_approved">Aprobado exitosamente</string>
+    <string name="msg_rejected">Solicitud rechazada</string>
+    <string name="msg_delete_confirm">¿Eliminar \"%1$s\"?</string>
+    <string name="msg_no_comments">Sé el primero en comentar</string>
+    <string name="msg_replying_to">Respondiendo a %1$s</string>
+    <string name="msg_comment_placeholder">Escribe un comentario…</string>
+    <string name="msg_reply_placeholder">Escribe una respuesta…</string>
+
+    <!-- Búsqueda -->
+    <string name="hint_search">Buscar…</string>
+    <string name="msg_no_results_for">No se encontraron juegos para \"%1$s\"</string>
+
+    <plurals name="game_count">
+        <item quantity="one">%d juego</item>
+        <item quantity="other">%d juegos</item>
+    </plurals>
+
+    <!-- Secciones -->
+    <string name="section_add_new_game">Agregar nuevo juego</string>
+    <string name="section_edit_game">Editar juego</string>
+    <string name="section_propose_edit">Proponer edición</string>
+    <string name="section_pending_approvals">Aprobaciones pendientes</string>
+    <string name="section_stats">Estadísticas de la biblioteca</string>
+    <string name="section_your_rating">Tu calificación</string>
+    <string name="section_comments">Comentarios (%1$d)</string>
+    <string name="section_top_rated_titles">⭐ Top 5 mejor valorados</string>
+
+    <!-- Estadísticas -->
+    <string name="stat_total_games">Total de juegos</string>
+    <string name="stat_avg_rating">Calificación promedio</string>
+    <string name="stat_by_platform">Juegos por plataforma</string>
+    <string name="stat_by_genre">Juegos por género</string>
+
+    <!-- Roles -->
+    <string name="role_admin">Administrador</string>
+
+    <!-- Cambios pendientes -->
+    <string name="change_new_game">Nuevo juego</string>
+    <string name="change_edit_game">Edición de juego</string>
+    <string name="label_original">Original</string>
+    <string name="label_proposed">Propuesto</string>
+    <string name="label_requested_by">Propuesto por</string>
+
+    <!-- Varios -->
+    <string name="hint_select_platform">Selecciona una plataforma</string>
+    <string name="hint_select_genre">Selecciona un género</string>
+    <string name="label_developer_prefix">Dev: %1$s</string>
+    <string name="label_no_image">Sin imagen</string>
+</resources>
